@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.nav{
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 12vh;
+}
+.read{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: -1vw;
+    margin-bottom: -1px;
+}
+.read p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.45vw;
+    text-align: center;
+
+}
+body{
+    overflow-x: hidden;
+}
+body img{
+    height: 100vh;
+    width: 100vw;
+    background-attachment: scroll;
+}
+.cre{
+    height: 4vh;
+    width: 2vw;
+    padding-top: 2vh;
+    padding-left: 12.5vw;
+}
+.short{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5vw;
+    font-weight:bold;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.write p{
+
+    color: #183153;
+    
+}
+.write span{
+    color: orange;
+}
+.first{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 80;
+    font-size: 1.35vw;
+    color: grey;
+    padding-left: 6vw;
+}
+.new{
+    height: 3vh;
+    width: 1.5vw;
+    padding-top: 2vh;
+    padding-left: 2.5vw;
+    color: grey;
+}
+.write{
+    background-color: white;
+    width: 60vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center ;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 80;
+    font-size: 1.35vw;
+    color: grey;
+    padding-left: 4vw;
+}
+h2:hover{
+    color: rgb(6, 122, 230);
+    text-shadow: 2px 2px 5px lightblue;
+}
+.nav i{
+    font-size: 2.05vw;
+    padding-top: 1.45vh;
+    padding-left: 30.5vw;
+    color: grey;
+}
+.fa-solid:hover{
+    text-shadow: 2px 2px 5px rgb(128, 128, 128);
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 16vw;
+    height: 8vh;
+    border: solid;
+    border-radius: 10px;
+    margin: 1.25vw;
+    box-shadow: 0px 4px 0px #183153;
+    display: flex;
+    align-items: center;
+}
+.box2{
+    display: flex;
+    align-items: center;
+    margin: 1.25vw;
+    width: 16vw;
+    height: 8vh;
+    border: solid;
+    border-radius: 10px;
+    background-color: #ffd43b;
+    box-shadow: 0px 4px 0px #183153;
+}
+.box2 i{
+    margin-left: 2.5vw;
+    padding: 0px;
+    font-size: 1.75vw;
+}
+.box2 p{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 1vw;
+    font-weight: bold;
+    color: #183153;
+}
+.box1 i{
+    margin-left: 2.5vw;
+    padding: 0px;
+    font-size: 1.75vw;
+}
+.box2:hover{
+    background-color: #fab005;
+}
+.box1:hover{
+    background-color: rgba(128, 128, 128, 0.605);
+}
+.box1 p{
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 1vw;
+    font-weight: bold;
+    color: #183153;
+}
+.video{
+    margin: auto;
+    width: 40vw;
+    margin-top: 3vw;
+    height: 50vh;
+    border-radius: 10px;
+    background-image: url(alexandros-athanasopoulos-GUFR1WsgCQQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bold span{
+    color:#183153;
+    font-weight: bold;
+}
+.front2{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(192, 190, 190, 0.331);
+}
